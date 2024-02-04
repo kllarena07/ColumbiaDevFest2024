@@ -10,7 +10,7 @@
 	import Pic6 from '$lib/assets/pic6.jpg';
 	import morning from '$lib/assets/morning.avif';
 	import afternoon from '$lib/assets/afternoon.avif';
-	import evening from '$lib/assets/evening.avif';
+	import evening from '$lib/assets/EVENING.avif';
 
 	import Button from '$lib/components/ui/button/button.svelte';
 
