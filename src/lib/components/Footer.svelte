@@ -1,9 +1,5 @@
-<script lang="ts">
-	import { enhance } from '$app/forms';
-</script>
-
 <footer class="bg-gray-800 text-white p-4 flex justify-center items-center">
-	<form class="flex items-center gap-5" use:enhance>
+	<form class="flex items-center gap-5">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
@@ -25,6 +21,8 @@
 			placeholder="Your email address"
 			required
 		/>
-		<button type="submit" class="bg-green-500 text-white px-4 py-1 rounded-md">Subscribe</button>
+		<button type="submit" class="bg-[#6b8e23] text-white px-4 py-1 rounded-md"
+			>Subscribe to our Newsletter</button
+		>
 	</form>
 </footer>

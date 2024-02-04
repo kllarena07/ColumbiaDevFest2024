@@ -1,4 +1,11 @@
 import { redirect, fail } from '@sveltejs/kit';
+import type { PageServerLoad } from './$types.js';
+
+export const load: PageServerLoad = async ({ locals }) => {
+	if (locals.user) {
+		throw redirect(300, '/');
+	}
+};
 
 export const actions = {
 	login: async ({ request, locals }) => {
